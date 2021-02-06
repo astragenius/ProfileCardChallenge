@@ -8,6 +8,23 @@ html {
 
 
 
+.header-banner {
+
+    height: 140px;
+    width: auto;
+    background-color: aquamarine;
+}
+
+
+.container {
+
+    position: relative;
+    height: 374px;
+    width: 350px;
+    background-color: #fff;
+
+
+}
 
 
 
