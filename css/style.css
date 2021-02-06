@@ -10,7 +10,7 @@ html {
 
 #profile-card {
 
-
+   
     
 }
 
@@ -21,7 +21,8 @@ span {
 
 .header-banner {
    
-    text-align: center;
+    border-radius: 15px 15px 0 0;
+    
     height: 140px;
     width: auto;
     background-image: url(/images/bg-pattern-card.svg);
@@ -29,13 +30,18 @@ span {
 
 img {
 
+    display: inline-block;
     border-radius: 50%;
+    float: left;
+    
+    
   
 }
 
 .container {
 
-   
+    box-sizing: border-box;
+    border-radius: 15px;
     height: 374px;
     width: 350px;
     background-color: #fff;
@@ -49,8 +55,8 @@ img {
 
 
 .namearea {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20%;
+    margin-bottom: 20px;
 }
 
 .namearea > span {
