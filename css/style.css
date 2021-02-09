@@ -18,19 +18,85 @@ html {
 
 
 
-#profile-card {
+/* Mobile Background */
 
-   
+
+
+@media (max-width: 375px) {
+
+    html {
     
+    
+        background-size: 90%;
+        background-position: top 500px left 150px, bottom 200px right 120px;
+        
+          
+        background-repeat: no-repeat;
+        
+    }
+
 }
 
 
+.section {
+
+    position: relative;
+}
+   
+
+.container {
+
+    position: relative;
+    border-radius: 15px;
+    height: 374px;
+    width: 350px;
+    background-color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20%;
+   
+
+
+}
+    
 
 span {
 
    display: block;
 }
 
+
+/* === Mobile - Container */
+
+@media (max-width: 375px) {
+
+    .container {
+
+        position: relative;
+        border-radius: 15px;
+        height: 374px;
+        width: 326px;
+        background-color: #fff;
+        margin-top: 40%;
+       
+    
+    
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* === Head-bereich ===  */
 .header-banner {
    
     border-radius: 15px 15px 0 0;
@@ -53,21 +119,31 @@ img {
   
 }
 
-.container {
 
-    position: relative;
-    border-radius: 15px;
-    height: 374px;
-    width: 350px;
-    background-color: #fff;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20%;
-   
 
+/* === Mobile Img ===  */
+
+
+@media (max-width: 375px) {
+
+
+    img {
+
+       
+        border: 5px solid #fff;
+        position: absolute;
+        border-radius: 50%;
+        top: 85px;
+        right: 115px;
+        
+        
+      
+    }
 
 }
 
+
+/* === Main area === */
 
 .namearea {
     margin-top: 20%;
@@ -86,6 +162,40 @@ img {
     
 }
 
+
+
+#victor {
+
+    font-weight: 700;
+    display: inline-block;
+    
+}
+
+#age {
+
+    display: inline-block;
+    padding-left: 6px;
+    
+}
+
+
+
+
+#city {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.cityage {
+
+    color: #6B7082;
+}
+
+
+
+
+
+/* Footer - Bereich */
 
 .footer {
 
@@ -157,29 +267,8 @@ img {
 }
 
 
-#victor {
 
-    font-weight: 700;
-    display: inline-block;
-    
-}
 
-#age {
-
-    display: inline-block;
-    padding-left: 6px;
-    
-}
-
-#city {
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-size: 14px;
-}
-.cityage {
-
-    color: #6B7082;
-}
 
 
 .attribution { font-size: 11px; text-align: center; }
