@@ -271,5 +271,12 @@ img {
 
 
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 13px; text-align: center; 
+
+                margin-top: 370px;
+
+}
+.attribution a { color: hsl(228, 45%, 44%); 
+
+                text-decoration: none;
+}
